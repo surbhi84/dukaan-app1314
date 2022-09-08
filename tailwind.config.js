@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
       colors: {
@@ -10,6 +10,12 @@ module.exports = {
         black30: "#4D4D4D",
         black98: "#FAFAFA",
         black95: "#F2F2F2",
+        black85: "#D9D9D9",
+      },
+      fontFamily: {
+        galanoReg: "galanoReg",
+        galanoMed: "galanoMed",
+        galanoSB: "galanoSB",
       },
     },
   },

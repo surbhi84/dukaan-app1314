@@ -7,6 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
+@font-face {
+  font-family: "galanoReg";
+  src: url("./fonts/galanogrotesque-regular.otf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "galanoMed";
+  src: url("./fonts/galanogrotesque-medium.otf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "galanoSB";
+  src: url("./fonts/galanogrotesque-semibold.otf") format("truetype");
+  font-weight: 600;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "galanoReg";
+  }
+}
