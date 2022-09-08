@@ -1,12 +1,14 @@
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { MainContent } from "./components/MainContent";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App flex flex-col min-h-screen relative">
       <Header />
-      <MainContent />
+      {/* <MainContent /> */}
+      <Footer />
     </div>
   );
 }
