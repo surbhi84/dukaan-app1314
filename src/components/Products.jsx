@@ -6,7 +6,7 @@ export const Products = () => {
       <h2 className="text-4xl font-bold text-black12 pb-12">
         Try our other free products
       </h2>
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-6">
         <div className="w-[22rem]">
           <img
             src="/images/privacy.png"
