@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutContent } from "./AboutContent";
+// import { AboutContent } from "./AboutContent";
 import { Pagination } from "./Pagination";
 import { SloganResults } from "./SloganResults";
 
