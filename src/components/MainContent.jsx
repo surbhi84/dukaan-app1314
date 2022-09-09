@@ -2,7 +2,7 @@ import React from "react";
 
 export const MainContent = () => {
   return (
-    <div className="flex flex-col gap-12 absolute rounded-lg top-32 bg-white mx-40 px-48 py-16 text-black12">
+    <div className="flex flex-col gap-12 absolute rounded-lg -top-48 bg-white mx-40 px-48 py-16 text-black12  ">
       <div className="flex flex-col gap-4">
         <h3 className=" text-4xl font-bold ">Free slogan maker</h3>
         <p className="text-black30 text-xl">
