@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutContent } from "./AboutContent";
+import { SloganResults } from "./SloganResults";
 
 export const MainContent = () => {
   return (
@@ -25,6 +26,8 @@ export const MainContent = () => {
       <button className=" flex w-52 justify-center py-3 px-6 bg-primaryBlue h-12 rounded font-medium text-white">
         Generate slogans
       </button>
+      <hr className="bg-black85" />
+      <SloganResults />
       <hr className="bg-black85" />
     </div>
   );
