@@ -7,12 +7,14 @@ import { Products } from "./components/Products";
 
 function App() {
   return (
-    <div className="App flex flex-col min-h-screen ">
+    <div className="App ">
       <Header />
-      <div className="relative pb-20">{/* <MainContent /> */}</div>
-      <AboutContent />
-      <Products />
-      <Footer />
+      <div className=" flex flex-col absolute top-32 ">
+        <MainContent />
+        <AboutContent />
+        <Products />
+        <Footer />
+      </div>
     </div>
   );
 }

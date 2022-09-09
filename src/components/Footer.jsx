@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-6 px-40 py-16 mt-auto bg-black12 text-white ">
+    <div className="flex flex-col gap-6 px-40 py-16 mb-0 bg-black12 text-white ">
       <div className="flex  ">
         <img src="/logo/white.svg" alt="dukaan_logo" className="h-11" />
         <div className="flex gap-24  ml-auto">
