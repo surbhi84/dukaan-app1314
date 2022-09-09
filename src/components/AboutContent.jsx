@@ -5,7 +5,7 @@ export const AboutContent = () => {
     <div className="bg-primaryBlue bg-opacity-5 flex justify-center px-40 text-base py-[4.75rem] gap-8 text-black12 ">
       <div className="flex flex-col items-center w-[22rem] ">
         <img
-          src="/icons/search.svg"
+          src="/images/search.svg"
           alt="search_slogan_svg"
           className="h-12 mb-7"
         />
@@ -17,7 +17,7 @@ export const AboutContent = () => {
       </div>
       <div className="flex flex-col items-center w-[22rem]">
         <img
-          src="/icons/select.svg"
+          src="/images/select.svg"
           alt="search_slogan_svg"
           className="w-14 h-12 mb-7"
         />
@@ -29,7 +29,7 @@ export const AboutContent = () => {
       </div>
       <div className="flex flex-col items-center w-[22rem]">
         <img
-          src="/icons/standOut.svg"
+          src="/images/standOut.svg"
           alt="search_slogan_svg"
           className="w-14 h-14 mb-5"
         />
